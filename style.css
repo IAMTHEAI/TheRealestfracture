@@ -1,35 +1,39 @@
 /* Black background for all */
 body {
-  background-color: #000000;
+  background-color: #000;
   font-family: monospace, sans-serif;
   line-height: 1.6;
   margin: 20px;
   text-align: center;
 }
 
-/* Chapter text colors */
-p.p1 { color: #00e5ff; }  /* electric blue */
-p.p2 { color: #ff00ff; }  /* neon pink */
-p.p3 { color: #39ff14; }  /* neon green */
-p.p4 { color: #fff900; }  /* neon yellow */
-p.p5 { color: #00e5ff; }  /* cycle back to blue */
-p.p6 { color: #ff00ff; }
-p.p7 { color: #39ff14; }
+/* Neon color loop */
+h1.c1 { color: #ff00ff; }  /* pink */
+p.c1  { color: #39ff14; }  /* green */
 
-/* Chapter title (opposite of body) */
-h1.p1 { color: #ff00ff; font-weight: bold; }  /* pink header for blue page */
-h1.p2 { color: #39ff14; font-weight: bold; }  /* green header for pink page */
-h1.p3 { color: #fff900; font-weight: bold; }  /* yellow header for green page */
-h1.p4 { color: #00e5ff; font-weight: bold; }  /* blue header for yellow page */
-h1.p5 { color: #ff00ff; font-weight: bold; }
-h1.p6 { color: #39ff14; font-weight: bold; }
-h1.p7 { color: #fff900; font-weight: bold; }
+h1.c2 { color: #39ff14; }  /* green */
+p.c2  { color: #00e5ff; }  /* electric blue */
 
-/* Images consistent size + centered */
+h1.c3 { color: #00e5ff; }  /* electric blue */
+p.c3  { color: #fff900; }  /* neon yellow */
+
+h1.c4 { color: #fff900; }  /* yellow */
+p.c4  { color: #ff00ff; }  /* pink */
+
+h1.c5 { color: #ff00ff; }  /* pink */
+p.c5  { color: #39ff14; }  /* green */
+
+h1.c6 { color: #39ff14; }  /* green */
+p.c6  { color: #00e5ff; }  /* electric blue */
+
+h1.c7 { color: #00e5ff; }  /* blue */
+p.c7  { color: #fff900; }  /* yellow */
+
+/* Image consistency */
 img {
   max-width: 600px;
   height: auto;
   margin: 20px auto;
   display: block;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
 }
