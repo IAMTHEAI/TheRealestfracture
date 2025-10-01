@@ -12,3 +12,4 @@ Warning: This story bites.
 And sometimes? It bites back.
 </pre>
 🥀ÝÝÝ
+<img src="images/Notes_251001_034124_ff2.png" width="900" />
